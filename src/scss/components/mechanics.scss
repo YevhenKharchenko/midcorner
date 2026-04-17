@@ -1,0 +1,101 @@
+.mechanics-section {
+  @include media(desktop) {
+  }
+}
+
+.mechanics-bg-wrapper {
+  padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding-top: 150px;
+    max-width: 1440px;
+  }
+}
+
+.mechanics-container {
+}
+
+.mechanics-title {
+  @include media(desktop) {
+  }
+}
+
+.mechanics-swiper-container {
+  max-width: 305px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.mechanics-swiper-container.show {
+  visibility: visible;
+}
+
+.mechanics-swiper-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.mechanics-slide {
+  width: 100%;
+  max-width: 305px;
+
+  @include media(desktop) {
+  }
+}
+
+.mechanics-img {
+  @include media(desktop) {
+  }
+}
+
+.controls {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 28px;
+  }
+}
+
+.arrow-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  @include media(desktop) {
+    &:hover {
+      transform: scale(1.1);
+
+      .arrow-icon {
+      }
+    }
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    &:hover {
+      transform: none;
+    }
+  }
+}
+
+.arrow-icon {
+}
