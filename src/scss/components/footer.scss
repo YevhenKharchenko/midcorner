@@ -1,5 +1,5 @@
 .footer {
-  background: #ff8a5b;
+  background: #f97316;
   padding-top: 34px;
   padding-bottom: 34px;
 
@@ -37,10 +37,11 @@
 .footer-link {
   display: flex;
   align-items: center;
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 600;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
   font-size: 20px;
-  color: #3a2e2a;
+  line-height: 1.5;
+  color: #e5e7eb;
   transition: color 0.3s ease-in-out;
 
   @include media(desktop) {
@@ -52,11 +53,11 @@
 }
 
 .footer-text {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
-  color: #3a2e2a;
+  color: #e5e7eb;
 
   @include media(desktop) {
     text-align: center;

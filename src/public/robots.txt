@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://northwindow.pro/sitemap.xml
+Sitemap: https://midcorner.space/sitemap.xml

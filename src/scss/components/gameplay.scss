@@ -1,13 +1,30 @@
 .gameplay-section {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-bg-wrapper {
   padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
     padding-top: 150px;
+    max-width: 1440px;
   }
 }
 
 .gameplay-container {
+  padding: 0;
+
   @include media(desktop) {
+  }
+}
+
+.gameplay-content-wrapper {
+  @include media(desktop) {
+    position: relative;
   }
 }
 
@@ -16,96 +33,21 @@
   }
 }
 
-.gameplay-content-wrapper {
-  @include media(desktop) {
-  }
-}
-
-.gameplay-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-
-  @include media(desktop) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 0 20px;
-  }
-}
-
-.gameplay-list-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  @include media(desktop) {
-    gap: 20px;
-    width: 100%;
-    max-width: 630px;
-
-    &:nth-child(1) {
-      background-image: url(../img/gameplay/gameplay-bg1-desk.png);
-      background-repeat: no-repeat;
-      background-position: top 32px right 65px;
-      background-size: auto;
-    }
-
-    &:nth-child(2) {
-      background-image: url(../img/gameplay/gameplay-bg2-desk.png);
-      background-repeat: no-repeat;
-      background-position: top 43px right 110px;
-      background-size: auto;
-    }
-
-    &:nth-child(3) {
-      flex-direction: row-reverse;
-      background-image: url(../img/gameplay/gameplay-bg3-desk.png);
-      background-repeat: no-repeat;
-      background-position: top 45px left 20px;
-      background-size: auto;
-
-      .gameplay-item-text {
-        text-align: right;
-      }
-    }
-
-    &:nth-child(4) {
-      flex-direction: row-reverse;
-      background-image: url(../img/gameplay/gameplay-bg4-desk.png);
-      background-repeat: no-repeat;
-      background-position: top 52px left 60px;
-      background-size: auto;
-
-      .gameplay-item-text {
-        text-align: right;
-      }
-    }
-  }
-}
-
-.gameplay-img {
-  min-width: 157px;
+.gameplay-img1 {
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
   }
 }
 
-.gameplay-item-text {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #002033;
+.gameplay-img2 {
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
-    max-width: 196px;
-  }
-}
-
-.gameplay-text-span {
-  font-weight: 700;
-
-  @include media(desktop) {
+    position: absolute;
+    bottom: 43px;
+    left: 0;
   }
 }

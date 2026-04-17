@@ -1,5 +1,5 @@
 .header {
-  background: #f3eeea;
+  background: #7988a7;
   position: fixed;
   width: 100%;
   top: 0;
@@ -46,6 +46,9 @@
   justify-content: end;
 
   @include media(desktop) {
+    border: 1px solid #f97316;
+    border-radius: 20px;
+    padding: 11px 15px;
     justify-content: start;
   }
 }
@@ -62,14 +65,11 @@
 }
 
 .nav-list-link {
-  border: 1px solid #6ed3c1;
-  border-radius: 20px;
-  padding: 9px;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color: #3a2e2a;
+  color: #f97316;
   display: flex;
   justify-content: center;
   align-items: center;

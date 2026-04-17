@@ -4,8 +4,8 @@
 }
 
 .hero-bg-wrapper {
-  padding-top: 113px;
-  padding-bottom: 88px;
+  padding-top: 122px;
+  padding-bottom: 434px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
@@ -15,8 +15,8 @@
   background-size: auto;
 
   @include media(desktop) {
-    padding-top: 179px;
-    padding-bottom: 207px;
+    padding-top: 226px;
+    padding-bottom: 194px;
     max-width: 1440px;
     background-image: url(../img/hero/hero-bg-desk.jpg);
   }
@@ -36,11 +36,11 @@
 .hero-title-img {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 356px;
+  margin-bottom: 33px;
 
   @include media(desktop) {
     margin: 0;
-    margin-bottom: 36px;
+    margin-bottom: 68px;
   }
 }
 

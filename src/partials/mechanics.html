@@ -1,90 +1,64 @@
-<section class="mechanics-section section" id="mechanics">
+<section class="section mechanics-section" id="mechanics">
   <div class="mechanics-bg-wrapper">
     <div class="container mechanics-container">
-      <h2 class="section-title mechanics-title">Core Gameplay</h2>
-      <div class="mechanics-swiper-container">
-        <ul class="swiper-wrapper mechanics-swiper-wrapper">
-          <li class="swiper-slide mechanics-slide">
+      <div class="mechanics-content-wrapper">
+        <h2 class="section-title mechanics-title">Core Gameplay</h2>
+        <div class="mechanics-text-wrapper">
+          <picture>
+            <source
+              srcset="./img/mechanics/mechanics-img-desk.png"
+              media="(min-width: 1440px)"
+              width="522"
+              height="325" />
+            <source
+              srcset="./img/mechanics/mechanics-img-mob.png"
+              width="375"
+              height="226" />
             <img
               class="mechanics-img"
-              src="./img/mechanics/mechanics-img1.png"
+              src="./img/mechanics/mechanics-img-mob.png"
               alt="Screenshot of the game"
-              width="305"
-              height="245"
+              width="375"
+              height="226"
               loading="lazy"
-            />
-          </li>
-          <li class="swiper-slide mechanics-slide">
-            <img
-              class="mechanics-img"
-              src="./img/mechanics/mechanics-img2.png"
-              alt="Screenshot of the game"
-              width="305"
-              height="245"
-              loading="lazy"
-            />
-          </li>
-          <li class="swiper-slide mechanics-slide">
-            <img
-              class="mechanics-img"
-              src="./img/mechanics/mechanics-img3.png"
-              alt="Screenshot of the game"
-              width="305"
-              height="245"
-              loading="lazy"
-            />
-          </li>
-          <li class="swiper-slide mechanics-slide">
-            <img
-              class="mechanics-img"
-              src="./img/mechanics/mechanics-img4.png"
-              alt="Screenshot of the game"
-              width="305"
-              height="245"
-              loading="lazy"
-            />
-          </li>
-          <li class="swiper-slide mechanics-slide">
-            <img
-              class="mechanics-img"
-              src="./img/mechanics/mechanics-img5.png"
-              alt="Screenshot of the game"
-              width="305"
-              height="245"
-              loading="lazy"
-            />
-          </li>
-          <li class="swiper-slide mechanics-slide">
-            <img
-              class="mechanics-img"
-              src="./img/mechanics/mechanics-img6.png"
-              alt="Screenshot of the game"
-              width="305"
-              height="245"
-              loading="lazy"
-            />
-          </li>
-        </ul>
-      </div>
-      <div class="controls mechanics-controls">
-        <button
-          class="arrow-btn"
-          id="mechanicsLeftArrow"
-          aria-label="Previous slide"
-        >
-          <svg class="arrow-icon" width="34" height="34">
-            <use href="./img/sprite.svg#icon-arrow-left"></use>
-          </svg>
-        </button>
-        <button
-          class="arrow-btn"
-          id="mechanicsRightArrow"
-          aria-label="Next slide"
-        >
-          <svg class="arrow-icon" width="34" height="34">
-            <use href="./img/sprite.svg#icon-arrow-right"></use>
-          </svg>
-        </button>
+          /></picture>
+          <ul class="mechanics-list">
+            <li class="mechanics-list-item">
+              <svg class="circle-icon" width="32" height="32">
+                <use href="./img/sprite.svg#icon-circle"></use>
+              </svg>
+              <p class="mechanics-item-text">Monitor passenger movement</p>
+            </li>
+            <li class="mechanics-list-item">
+              <svg class="circle-icon" width="32" height="32">
+                <use href="./img/sprite.svg#icon-circle"></use>
+              </svg>
+              <p class="mechanics-item-text">
+                Inspect bags and verify identities
+              </p>
+            </li>
+            <li class="mechanics-list-item">
+              <svg class="circle-icon" width="32" height="32">
+                <use href="./img/sprite.svg#icon-circle"></use>
+              </svg>
+              <p class="mechanics-item-text">Identify suspicious behavior</p>
+            </li>
+            <li class="mechanics-list-item">
+              <svg class="circle-icon" width="32" height="32">
+                <use href="./img/sprite.svg#icon-circle"></use>
+              </svg>
+              <p class="mechanics-item-text">Intervene in potential threats</p>
+            </li>
+            <li class="mechanics-list-item">
+              <svg class="circle-icon" width="32" height="32">
+                <use href="./img/sprite.svg#icon-circle"></use>
+              </svg>
+              <p class="mechanics-item-text">
+                Maintain order under time pressure
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
